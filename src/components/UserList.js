@@ -16,7 +16,7 @@ const UserList = ({ users, onDelete }) => {
         </div>
       ))}
 
-      {/* 🔥 МОДАЛКА ПРЯМО ЗДЕСЬ */}
+      {/*МОДАЛКА */}
       {selectedUser && (
         <div className="backdrop">
           <div className="modal">
